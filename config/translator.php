@@ -32,6 +32,9 @@ return [
     // Ex: ['en', 'es', 'fr']
     'available_locales' => [],
 
+    // Path to translation files
+    'translation_path' => env('TRANSLATION_PATH', '/resources/lang'),
+
     /*
     |--------------------------------------------------------------------------
     | Default Translation Cache
