@@ -1,6 +1,6 @@
 {
     "name": "abstractrs/translation",
-    "description": "A Translation package for Laravel 5 with database and cache support",
+    "description": "A Translation package for Laravel with database and cache support",
     "keywords": [
         "waavi",
         "laravel-translator",
@@ -18,12 +18,12 @@
         }
     ],
     "require": {
-        "laravel/framework": "~10.0",
-        "doctrine/dbal": "^2.5.2"
+        "laravel/framework": "^10.0",
+        "doctrine/dbal": "^3.7"
     },
     "require-dev": {
-        "phpunit/phpunit" : "~9.1",
-        "orchestra/testbench": "~6.0",
+        "phpunit/phpunit" : "^10.0",
+        "orchestra/testbench": "^8.0",
         "mockery/mockery": "^1.3"
     },
     "autoload": {
@@ -36,7 +36,7 @@
             "Waavi\\Translation\\Test\\": "tests"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "scripts": {
         "test": "vendor/bin/phpunit"
     }

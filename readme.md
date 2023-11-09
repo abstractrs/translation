@@ -42,6 +42,8 @@ WAAVI is a web development studio based in Madrid, Spain. You can learn more abo
  5.6.x    | 2.3.x and higher
  6.x\|7.x     | 2.4.x and higher
  8.x.x    | 2.5.x and higher
+9.x.x    | 3.0.0
+10.x.x    | 4.x and higher
 
 ## Features overview
 
@@ -56,12 +58,12 @@ WAAVI is a web development studio based in Madrid, Spain. You can learn more abo
 Require through composer
 
 
-	composer require waavi/translation 2.5.x
+	composer require abstractrs/translation
 
 Or manually edit your composer.json file:
 
 	"require": {
-		"waavi/translation": "2.5.x"
+		"abstractrs/translation": "^4.0"
 	}
 
 Once installed, in your project's config/app.php file replace the following entry from the providers array:
